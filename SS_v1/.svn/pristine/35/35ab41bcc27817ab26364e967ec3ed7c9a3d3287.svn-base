@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <locale.h>
+
+extern void FuncionLib_jorcallag40(void);
+extern char VarGlobaLib_jorcallag40[];
+
+
+int main(int argc, char* argv[]) {
+
+	setlocale(LC_ALL, "Spanish");
+
+	FuncionLib_jorcallag40();
+	printf("La variable global: %s\n", VarGlobaLib_jorcallag40);
+}

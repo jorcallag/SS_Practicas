@@ -1,0 +1,19 @@
+﻿  GeneraPatron.cpp
+  ImagenAVentana.cpp
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\ImagenAVentana.cpp(65,24): warning C4018: '<': no coinciden signed/unsigned
+  P06.4.a.AGris.cpp
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(24,16): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(27,17): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(49,39): warning C4244: '=': conversión de 'double' a 'unsigned char'; posible pérdida de datos
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(87,25): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(90,17): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(112,41): warning C4244: '=': conversión de 'double' a 'unsigned char'; posible pérdida de datos
+  P07_Eje5_jorcallag.cpp
+  P07_Eje8_jorcallag.cpp
+  P07_TrasMalla.cpp
+  Principal.cpp
+  ProcesaImagen.cpp
+  Generando código...
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\ImagenAVentana.cpp(86): warning C4172: devolución de dirección de la variable local o temporal: tituloVentana
+MSVCRTD.lib(exe_main.obj) : error LNK2019: símbolo externo _main sin resolver al que se hace referencia en la función "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\Ej5-jorcallag\jorcallag-P07.exe : fatal error LNK1120: 1 externos sin resolver

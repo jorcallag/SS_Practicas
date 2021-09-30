@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(AAComm)\eje</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej11-jorcallag|Win32'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(AAComm)\eje</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej8-jorcallag|Win32'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(AAComm)\eje</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej7-jorcallag|Win32'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(AAComm)\eje</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej5-jorcallag|Win32'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>$(AAComm)\eje</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej11-jorcallag|x64'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej8-jorcallag|x64'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej7-jorcallag|x64'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej5-jorcallag|x64'">
+    <LocalDebuggerCommandArguments>P01Eje1.mp4</LocalDebuggerCommandArguments>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH%
+$(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

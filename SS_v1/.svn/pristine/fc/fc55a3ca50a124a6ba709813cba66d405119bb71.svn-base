@@ -1,0 +1,41 @@
+#include "proyecto.h"
+// poner aquí todos los archivos de includes adicionales necesarios
+
+// comprueba que los límites de una coordenada x o y no pasen de los valores máximo y mínimo
+static int CompruebaLimitesXoY(double valor, int limite)
+{
+	if (valor >= limite)
+		valor = limite - 1;
+	else
+		if (valor < 0)
+			valor = 0;
+	return (int)valor;
+}
+
+double amplitudDistorsion = 2.0;
+
+// Crea un efecto de malla sobre la imagen
+void TrasMalla(IplImage* imgO, IplImage* imgR, double sinUso1, double sinUso2)
+{
+
+	int bytesXpixel = imgO->nChannels;
+	for (int y = 0; y < imgO->height; y++) { // Recorre scanlines
+		for (int x = 0; x < imgO->width; x++) {
+			/* Calcula pixeles de origen y de destino,
+					imageData apunta al inicio de la imagen.
+						   y* widthStep  es la distancia hasta el inicio del scanline y
+						   x* nChannels es la distancia desde el inicio del scanline
+								hasta la columna x.
+			*/
+			// Dirección del pixel de origen
+			unsigned char* pO = (unsigned char*)&imgO->imageData[y * imgO->widthStep + x * bytesXpixel];
+			// Dirección del pixel de destino
+			// Cambia x e y en destino para distorsionar la imagen
+			int dy = CompruebaLimitesXoY(y + amplitudDistorsion * sin(x), imgO->height);
+			int dx = CompruebaLimitesXoY(x + amplitudDistorsion * cos(y), imgO->width);
+
+			unsigned char* pD = (unsigned char*)&imgR->imageData[dy * imgR->widthStep + dx * bytesXpixel];
+			*(PRGBTRIPLE)pD = *(PRGBTRIPLE)pO;
+		}
+	}
+}

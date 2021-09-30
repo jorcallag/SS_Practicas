@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <locale.h>
+
+//1. Prototipo: fichero .h
+	//Dir donde esta el .h y el nombre
+			//C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P03\jorcallag-SolP03\jorcallag-P03-Static
+			//$(SolutionDir)
+
+#include "jorcallag-P03-Static\Firma_jorcallag.h"
+
+//2. Hacer accesible la biblioteca donde esta Firma_jorcallag
+	//Dir donde esta .lib y el nombre
+		//C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P03\jorcallag-SolP03\Debug\
+		// --> $(OutDir)
+		//jorcallag-P03-Static.lib
+
+
+//extern "C" void VarGlobaLib_jorcallag40(char*);
+//extern "C" char FuncionLib_jorcallag40[];
+
+
+int main(int argc, char* argv[]) {
+
+	setlocale(LC_ALL, "Spanish");
+
+	//VarGlobaLib_jorcallag40((char*) "Texto que se le pasa a la funcion");
+	//printf("La variable global: %s\n", FuncionLib_jorcallag40);
+
+	Firma_jorcallag(NULL);
+
+	printf("\nPulse la tecla RETORNO para terminar\n");
+	getchar();
+	return 0;
+
+}

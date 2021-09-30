@@ -1,0 +1,5 @@
+﻿  P06.4.a.AGris.cpp
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(10,16): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(13,17): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\jorcallag-P07\P06.4.a.AGris.cpp(35,39): warning C4244: '=': conversión de 'double' a 'unsigned char'; posible pérdida de datos
+  jorcallag-P07.vcxproj -> C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P07\jorcallag-SolP07\Ej5-jorcallag\jorcallag-P07.exe
