@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerWorkingDirectory>$(AAComm)..\..\joaalmcon\misArchivos</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH% $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej8.15|Win32'">
+    <LocalDebuggerWorkingDirectory>$(AAComm)eje</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH% $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>P10Eje2.mp4</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej8.6|Win32'">
+    <LocalDebuggerWorkingDirectory>$(AAComm)eje</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH% $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>P10Eje2.mp4</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Ej8.12|Win32'">
+    <LocalDebuggerWorkingDirectory>$(AAComm)eje</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH% $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>P10Eje2.mp4</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Eje8.3|Win32'">
+    <LocalDebuggerWorkingDirectory>$(AAComm)eje</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerEnvironment>PATH=$(AAComm)\bin;%PATH% $(LocalDebuggerEnvironment)</LocalDebuggerEnvironment>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArguments>P10Eje2.mp4</LocalDebuggerCommandArguments>
+  </PropertyGroup>
+</Project>

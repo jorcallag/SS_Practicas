@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <windows.h>
+
+static char msg[100];
+static int i = 0;
+
+void Firma_joaalmcon(void * imagen) { 
+
+	snprintf(msg, sizeof(msg), "Ejecutada Firma_nusuario #%d veces\n", i++);
+	OutputDebugString(msg); 
+}

@@ -1,0 +1,72 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+#include <locale.h>
+#include <Windows.h>
+#include "joaalmcon-LibSS.h"
+
+double res;
+
+int EscribeK(int NroKBytes, char* NombreArchivo);
+
+int main(int argc, char* argv[]) {
+
+	setlocale(LC_ALL, "Spanish"); // hace que printf "entienda" tildes, ñ, etc.
+
+	printf("\nPulse tecla ESC para cerrar la ventana\n");
+
+	
+	//	if (argc != 3) {
+	//		fprintf(stderr, "Usage: cp file1 file2\n");
+	//		return 1;
+	//	}
+	//	if (!CopyFile(argv[1], argv[2], FALSE)) {
+	//		fprintf(stderr, "CopyFile Error: %x\n", GetLastError());
+	//		return 2;
+	//	}
+	//	return 0;
+
+	
+	//CheckError(FALSE, "Primera llamada: Esto no se imprime", 0);
+	//CheckError(TRUE, "Segunda llamada: Esto se imprime y sigue", 0);
+	//CheckError(argc!=3, "Usage: cp file1 file2\n"
+		//		"Tercera llamada: esto se imprime y para", 1);
+
+	EscribeK(1024 * 10, (char*)"D:/Desktop/SSRoot/joaalmcon/misArchivos/textoPrueba.txt");
+	Sleep(500);
+	res = MideRetraso("Retraso en segs despues de ejecutar SLEEP: ");
+	printf("Valor de res (segs): %4.3f", res);
+
+	printf("\nPulse tecla RETORNO para terminar\n");
+
+	getchar();
+
+	return 0;
+
+}
+
+
+int EscribeK(int NroKBytes, char* NombreArchivo){
+
+	static char Buffer[1024];
+
+	int counter;
+	FILE* ptr_myfile;
+	ptr_myfile = fopen(NombreArchivo, "wb");
+
+	if (!ptr_myfile){
+
+		printf("Unable to open file!");
+		return 1;
+
+	}
+
+	for (counter = 0; counter < NroKBytes; counter++){
+
+		fwrite(Buffer, sizeof(Buffer), 1, ptr_myfile);
+	}
+	fclose(ptr_myfile);
+
+	return 0;
+
+}

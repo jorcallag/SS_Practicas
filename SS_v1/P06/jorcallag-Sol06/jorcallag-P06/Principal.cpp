@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		nombreVentana = ImagenAVentana(imgOriginal, "Original", "Pulsa una tecla\npara continuar...", false, &tecla);
 	} while (tecla == -1);
 
-	//printf("Cerrando primera ventana..."); // <-- descomentar para ejercicio 6.2 
+	printf("Cerrando primera ventana..."); // <-- descomentar para ejercicio 6.2 
 	cvDestroyWindow(nombreVentana);	// cierra la primera ventana
 	// crea imagen de resultado
 	IplImage* imgResultado = cvCreateImage(CvSize(imgOriginal->width, imgOriginal->height),
@@ -32,8 +32,8 @@ int main(int argc, char *argv[])
 	{
 		char mensaje[200];
 		MideRetraso(0);	//<-- Solo medimos el tiempo de proceso de la imagen. Desde aquí
-		//ProcesaImagen(imgOriginal, imgResultado);
-		AGris(imgOriginal, imgResultado); //<-- Ejercicio 6.8
+		ProcesaImagen(imgOriginal, imgResultado);
+		//AGris(imgOriginal, imgResultado); //<-- Ejercicio 6.8
 		//Sleep(100);
 		retrasoAcumulado += MideRetraso(0);	// --> hasta aquí
 		nroImagenes++;

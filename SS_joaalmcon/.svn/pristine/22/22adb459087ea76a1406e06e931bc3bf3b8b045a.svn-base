@@ -1,0 +1,4 @@
+#pragma once
+
+BOOL CheckError(BOOL ErrorCondition, LPCTSTR userMessage, DWORD exitCode);
+double MideRetraso(LPCTSTR pMensaje);

@@ -1,0 +1,18 @@
+# He realizado la practica en el proyecto P01 | Para el 2.9 he creado e proyecto P02
+
+
+2.2 Widht = 640 , Height = 360
+
+2.6 Sí, se cumple el esquema de memoria. 
+
+2.7 El valor al definirlas como global es 0x00000000
+    Al definirlas como local es 0xcccccccc
+    Ocurre lo mismo en JAVA?:
+
+2.8 Las estructuras se pasan por referencia
+
+    void StepDerecha(CvPoint punto) {
+	punto.x = punto.x + 1;
+    }
+
+2.9 Las matrices se pasan por valor

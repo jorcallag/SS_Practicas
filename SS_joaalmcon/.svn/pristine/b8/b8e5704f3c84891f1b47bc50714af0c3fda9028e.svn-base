@@ -1,0 +1,6 @@
+#pragma once
+
+#include <windows.h>
+
+BOOL CheckError(BOOL ErrorCondition, LPCTSTR userMessage, DWORD exitCode);
+double MideRetraso(LPCTSTR pMensaje);
