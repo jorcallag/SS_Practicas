@@ -1,3 +1,0 @@
-﻿  jorcallag-P03TestLib.c
-EjeLib.v0_jorcallag.lib(Principal.obj) : warning LNK4099: no se encontró PDB 'EjeLib.v0_jorcallag.pdb' con 'EjeLib.v0_jorcallag.lib(Principal.obj)' o en 'C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P03\jorcallag-SolP03\Debug\EjeLib.v0_jorcallag.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-  jorcallag-P03-TestLib.vcxproj -> C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P03\jorcallag-SolP03\Debug\jorcallag-P03-TestLib.exe

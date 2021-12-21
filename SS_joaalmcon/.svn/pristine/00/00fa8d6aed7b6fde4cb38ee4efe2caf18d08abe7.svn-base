@@ -1,4 +1,0 @@
-#pragma once
-#include "opencv/cv.h"
-#include "opencv/highgui.h"
-void Firma_joaalmcon(CvArr * imagen);

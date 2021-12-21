@@ -51,11 +51,11 @@ int main(int argc, char *argv[])
 		//Sleep(100);
 		retrasoAcumulado += MideRetraso(0);	// --> hasta aquí
 		nroImagenes++;
-		// Construimos el mensaje
+
 		snprintf(mensaje, sizeof(mensaje),														//ERROR detectado %s en vez de %d para el 
 			"procesando %d imagenes en %3.3f segs \n (%3.3f imgs/s) \n Pulsa ENTER para terminar",	//oarametro nroImagenes
 			nroImagenes, retrasoAcumulado, nroImagenes / retrasoAcumulado);
-		// Muestra el resultado
+		
 		ImagenAVentana(imgResultado, (char*)"RESULTADO:", mensaje, true, &tecla);
 		
 		IplImage* imgOriginal = cvQueryFrame(g_capture);

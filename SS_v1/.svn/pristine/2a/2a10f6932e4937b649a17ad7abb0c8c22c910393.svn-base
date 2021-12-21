@@ -1,3 +1,0 @@
-﻿  Ej16-jorcallag.cpp
-jorcallag-LibSS.lib(jorcallag-CheckError.obj) : warning LNK4099: no se encontró PDB 'jorcallag-LibSS.pdb' con 'jorcallag-LibSS.lib(jorcallag-CheckError.obj)' o en 'C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P08\jorcallag-SolP08\Ej12-jorcallag\jorcallag-LibSS.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
-  jorcallag-P08.vcxproj -> C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P08\jorcallag-SolP08\Ej12-jorcallag\jorcallag-P08.exe

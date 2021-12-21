@@ -1,7 +1,0 @@
-﻿  Ej8-jorcallag.cpp
-  ImagenAVentana.cpp
-C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P08\jorcallag-SolP08\jorcallag-P08\ImagenAVentana.cpp(65,24): warning C4018: '<': no coinciden signed/unsigned
-  Principal.cpp
-  Generando código...
-C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P08\jorcallag-SolP08\jorcallag-P08\ImagenAVentana.cpp(86): warning C4172: devolución de dirección de la variable local o temporal: tituloVentana
-  jorcallag-P08.vcxproj -> C:\Users\Jorlu\Desktop\WS\SS\jorcallag\P08\jorcallag-SolP08\Ej12-jorcallag\jorcallag-P08.exe

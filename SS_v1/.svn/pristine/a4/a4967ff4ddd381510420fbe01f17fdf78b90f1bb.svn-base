@@ -1,5 +1,0 @@
-#include "jorcallag-LibSS.h"
-
-void checkError() {
-
-}

@@ -1,6 +1,0 @@
-#include "jorcallag-LibSS.h"
-
-double MideRetraso(LPCTSTR pMensaje)
-{
-	return TRUE;
-}
